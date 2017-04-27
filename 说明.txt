@@ -1,2 +1,11 @@
 db包用于存放数据库模型相关的代码，gson包用于存放GSON模型相关的代码
 service包用于存放服务相关的代码，util包用于存放工具相关的代码
+
+Province、City、County类：JavaBean
+
+HttpUtil类： 向服务器发起http请求
+
+Utility类： 解析处理JSON数据
+	handleProvinceResponse(String response)					//处理省级数据
+	handleCityResponse(String response,int provinceId)		//处理市级数据
+	handleCountyResponse(String response,int cityId)		//处理市级数据
