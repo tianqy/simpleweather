@@ -9,8 +9,16 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_weight="2"
+        android:layout_weight="2.2"
         android:textColor="#fff"/>
+
+    <ImageView
+        android:id="@+id/info_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/info_text"
@@ -18,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_gravity="center_vertical"
-        android:gravity="center"
+        android:gravity="left"
         android:textColor="#fff"/>
 
     <TextView
